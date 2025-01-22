@@ -76,6 +76,19 @@
 // restr = restr.join("");
 // console.log(restr);
 
+// 12. Write a js program to check whether a string is palindrome or not.
+
+// var str = "12121";
+// var nstr = str.split("");
+// nstr = nstr.reverse();
+// nstr = nstr.join("");
+// if(str == nstr){
+//     console.log("String is Palindrome");
+// }
+// else{
+//     console.log("String is NOT Palindrome");
+// }
+
 // 13. Write a js program to reverse order of words in a given string
 
 // var str = "one two three";
@@ -84,3 +97,9 @@
 // restr = restr.join(" ");
 // console.log(restr);
 
+// 14. Write a js program to find first occurrence of a character in a given string.
+
+// var str = prompt("Enter The Word:");
+// var nstr = str.match(prompt("Enter The Character:"));
+// var ind = str.indexOf(nstr[0]);
+// console.log(`The Character is at ${ind} Index.`);
