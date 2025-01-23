@@ -102,4 +102,32 @@
 // var str = prompt("Enter The Word:");
 // var nstr = str.match(prompt("Enter The Character:"));
 // var ind = str.indexOf(nstr[0]);
-// console.log(`The Character is at ${ind} Index.`);
+// console.log(`The First Occurence of Character is at ${ind} Index.`);
+
+// 15. Write a js program to find last occurrence of a character in a given string.
+
+// var str = "batman";
+// var nstr = str.match(/[a]/g);
+// var ind = str.lastIndexOf(nstr[0]);
+// console.log(`The Last Occurence of Character is at ${ind} Index.`);
+
+// 16. Write a js program to search all occurrences of a character in given string.
+
+// var str = "deadpool";
+// var ch = 'd'; 
+// var match = str.match(/[d]/g);
+// var ind = [];
+// if(match){
+//     let index = -1;
+//     while((index = str.indexOf(ch, index + 1)) !== -1){
+//         ind.push(index)
+//     }
+// }
+// console.log("Occurences : ",match);
+// console.log("Indexes : ",ind);
+
+// 17. Write a js program to count occurrences of a character in given string.
+
+// var str = "blackadam";
+// var nstr = str.match(/[a]/g);
+// console.log(`The Occurence of given Character is ${nstr.length} times.`);
