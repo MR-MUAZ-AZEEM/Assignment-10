@@ -131,3 +131,59 @@
 // var str = "blackadam";
 // var nstr = str.match(/[a]/g);
 // console.log(`The Occurence of given Character is ${nstr.length} times.`);
+
+// 21. Write a js program to remove first occurrence of a character from string.
+
+// var str = "apple";
+// var ch = str.indexOf('p');
+// var nstr1 = str.slice(0, 1);
+// var nstr2 = str.slice(2);
+// var result = nstr1 + nstr2;
+// console.log(result);
+
+// 22. Write a js program to remove last occurrence of a character from string.
+
+// var str = "program";
+// var ch = str.lastIndexOf('r');
+// var nstr1 = str.slice(0, 4);
+// var nstr2 = str.slice(5);
+// var result = nstr1 + nstr2;
+// console.log(result);
+
+// 23. Write a js program to remove all occurrences of a character from string.
+
+// var str = "character";
+// var ch = 'c'; 
+// var match = str.match(/[c]/g);
+// var ind = [];
+// if(true){
+//     let index = -1;
+//     while((index = str.indexOf(ch, index + 1)) !== -1){
+//         ind.push(index)
+//     }
+// }
+// var nstr1 = str.slice(1, 5);
+// var nstr2 = str.slice(6);
+// var res = nstr1 + nstr2;
+// console.log(res);
+
+// 25. Write a js program to replace first occurrence of a character with another in a string.
+
+// var str = "critics";
+// str = str.replace('c','t');
+// console.log(str);
+
+// 26. Write a js program to replace last occurrence of a character with another in a string.
+
+// var str = "inception";
+// var ind = str.lastIndexOf('i');
+// var nstr1 = str.slice(0, 6);
+// var nstr2 = str.slice(7);
+// var res = nstr1 + 'o' + nstr2;
+// console.log(res);
+
+// 27. Write a js program to replace all occurrences of a character with another in a string.
+
+// var str = "alexander";
+// str = str.replaceAll('e', 'i');
+// console.log(str);
